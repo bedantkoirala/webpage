@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Home</title> 
+    <!-- Link the html files to css -->
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <!--link for icons-->
+    <script src="https://kit.fontawesome.com/5f2ca8eb57.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <!-- Navigation bar starts here -->
+    <nav id="navbar">
+
+        <div class="container">
+            <div id="search-box">
+                <p>Search</p>
+            </div>
+            <div class="pic">
+                <img src="IMG/logo.PNG" height="80px" width="200px">
+            </div>
+            <div class="index">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation bar ends here -->
+        <h2 style="background-image: url(img/cover.jpg); text-align: center; color: white; padding: 120px; margin-top: 20px; font-family: serif; font-size: 40px;">There are 10,000+ titles available to choose </br>
+            <a href="product.html" style="color: white;">Explore</a>
+        </h2>
+        <section id="best">
+            <div class="sell">
+                <h1 style="font-family: Optima; border: 2px; border-style: solid; margin-left: 200px; margin-right: 200px;">Best Selling Books 2022:</h1><br>
+    <!-- using java script for slider -->
+    <script>
+        var i=0;
+        var images = [];
+        var time = 2000;
+        //image list
+        images[0]='img/1.jpg';
+        images[1]='img/2.jpg';
+        images[2]='img/13.jpg';
+        images[3]='img/14.jpg';
+         
+        //Change image
+        function chanegImg(){
+            document.slide.src=images[i];
+
+            if (i< images.length - 1) {
+                i++;
+            } else{
+                i=0;
+            }
+            setTimeout("chanegImg()", time);
+        }
+        window.onload = chanegImg;
+    </script>
+            <img name="slide" width="400" height="500" border="8px" style="border-style: double;">
+        </section>
+
+            </div>
+<button id="buttonID" onClick="functionName()"><i class="fas fa-arrow-up"></i></button>
+        <script src="java script/script.js"></script>
+            </br>
+        <div id="contactus">
+            <div class="container">
+                <!--Creates a horizontal line-->
+                <hr width="600px"><h3>Contact us Through :</h3> 
+                <br>
+            <ul>
+                <li><i class="fa-solid fa-phone"></i> +977 9815104002, 061-535829</li>
+                <li><i class="fa-solid fa-envelope"></i> bedant.bookshop@gmail.com</li>
+                <li><i class="fa-solid fa-location-dot"></i> Gairapatan, Pokhara-4, Nepal</li>
+            </ul>
+        </div>
+    </div>
+<!-- footer starts here -->
+<footer >
+        <div id="connect">
+            
+            <h5>Follow us on:</h5>
+                <ul>
+                    <li><a href="https://www.instagram.com/" target="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/?lang=en" target="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://np.linkedin.com/" target="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+                    <div class="container">
+        
+                    <br>
+                    <hr width="1400px"></br><p>&copy;Bedant Book Shop Pvt . Ltd .2022</p>
+</footer>
+        <!-- footer starts here -->
+</body>
+
+</html>

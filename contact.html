@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+<title>Contact Us</title>
+<!-- Link the html files to css -->
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<!--link for icons-->
+<script src="https://kit.fontawesome.com/5f2ca8eb57.js" crossorigin="anonymous"></script>
+   <!---Internal CSS----->
+        <style>
+              body {
+                margin: 0;
+                padding: 0;
+                font-family: "montserrat",sans-serif;
+                  }
+
+        .contact-section{
+                background-image:url("img/contact.webp");
+                background-size: cover;
+                padding: 5px 0;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 20px;
+                padding-bottom: 0px;
+}
+        .contact-section h1{
+                text-align: center;
+                color: black;
+
+}
+        .contact-section p{
+                text-align: center;
+}       
+        .border{
+                width: 100px;
+                height: 10px;
+                background: #34495e;
+                margin: 40px auto;
+}
+
+        .contact-form{
+                max-width: 600px;
+                margin: auto;
+                padding: 0 10px;
+                overflow: hidden;
+}
+
+        .contact-form-text{
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                margin: 16px 0;
+                border: 0;
+                background: #111;
+                padding: 20px 40px;
+                outline: none;
+                color: #ddd;
+                transition: 0.5s;
+}
+        .contact-form-text:focus{
+                box-shadow: 0 0 10px 4px #34495e;
+}
+        textarea.contact-form-text{
+                resize: none;
+                height: 120px;
+}
+        .contact-form-btn{
+                float: right;
+                border: 0;
+                background: #34495e;
+                color: #fff;
+                padding: 12px 50px;
+                border-radius: 20px;
+                cursor: pointer;
+                transition: 0.5s;
+}
+        .contact-form-btn:hover{
+                background: #2980b9;
+}
+                </style>
+</head>
+<body>
+    <!-- Naavigation starts here -->
+<nav id="navbar">
+<div class="container">
+<div id="search-box">
+        <p>Search</p>
+        </div>
+        <div class="pic">
+            <img src="IMG/logo.PNG" height="80px" width="200px">
+        </div>
+        <div class="index">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+</div>
+</nav>    
+<!-- Naavigation ends here -->
+             <div class="contact-section"  >
+                     <form onsubmit="validateForm();" name="messageForm">
+                     <h1 style="padding:40px; font-family: serif;">Let's Start a Conversation Here.</h1>
+                        <p style="font-family: serif;">Please do not hesitate to let us know if you have any complaints that we need to address.</p>                     
+                    <div class="contact-form">
+                        <input type="text" class="contact-form-text" placeholder="Your name" name="name">
+                        <input type="email" class="contact-form-text" placeholder="Your email" name="email">
+                        <input type="text" class="contact-form-text" placeholder="Your phone" name="phone">
+                        <textarea class="contact-form-text" placeholder="Your message" name="message"></textarea>
+                        <input type="submit" class="contact-form-btn" value="Send message"> 
+                      </form> 
+                    </div>       
+                </br>
+                </br>   
+            
+            </div>
+                 </br>
+            <div id="contactus">
+                <div class="container">
+                    <!--Creates a horizontal line-->
+                    <hr width="600px"><h3>Contact us Through :</h3> 
+                    <br>
+                        <ul>
+                            <li><i class="fa-solid fa-phone"></i> +977 9815104002, 061-535829</li>
+                            <li><i class="fa-solid fa-envelope"></i> bedant.bookshop@gmail.com</li>
+                            <li><i class="fa-solid fa-location-dot"></i> Gairapatan, Pokhara-4, Nepal</li>
+                        </ul>
+                </div>
+
+            </div>
+<!-- Footers starts here -->
+ <footer >
+        <div id="connect">
+            
+            <h5>Follow us on:</h5>
+                <ul>
+                    <li><a href="https://www.instagram.com/" target="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/?lang=en" target="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://np.linkedin.com/" target="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+                    <div class="container">
+        
+                    <br>
+                    <hr width="1400px"></br><p>&copy;Bedant Book Shop Pvt . Ltd .2022</p>
+ </footer>
+ <!-- Footer ends here -->
+        <button id="buttonID" onClick="functionName()"><i class="fas fa-arrow-up"></i></button>
+        <!-- Link the html files to js --> 
+        <script src="java script/script.js"></script>
+</body>
+</html>

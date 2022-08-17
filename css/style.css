@@ -1,0 +1,246 @@
+*{  
+margin: 0px;
+padding: 0px;
+font-family: 'Raleway', sans-serif;
+}
+#navbar{
+background-color: white;
+
+}
+
+#navbar ul{
+    list-style: none ;
+}
+
+#navbar ul li{
+display: inline;
+margin-left: 200px;
+}
+
+#navbar ul li a{
+text-decoration: none;
+padding-left: 10px;
+}
+#navbar ul li a:link{
+color: brown;
+}
+
+#navbar ul li a:visited{
+color: black;
+}
+
+#navbar ul li a:hover{
+color: red;
+}
+
+#navbar ul li a:active{
+color: white;
+}
+
+#buttonID{
+  display: none;
+  padding: 20px;
+  background-color: ;
+  color: black;
+  position: fixed;
+  font-size: 20px;
+  border-radius: 50%;
+  bottom: 50px;
+  right: 30px;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.pic{
+margin-top: 10PX; 
+}
+.container{
+margin: auto;
+width: 100%;
+overflow: hidden;
+font-family: serif;
+padding-left: 20px;
+font-size: 16px;
+padding-bottom: 10px;
+}
+#search-box {
+    width: 800px;
+    background-color: white;
+    border: 2px solid black;
+    float: right;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-right: 30px;
+    margin-right: 250PX;
+}
+#footer{
+background-color: #191516;
+color: white;
+
+padding-top: 10px;
+padding-bottom: 20px;
+list-style: none;
+font-size: 15px;
+
+}
+
+#footer p{
+float: left;
+margin-left: 10px;
+}
+
+
+
+#best{
+	color: black;
+	padding: 20px;
+	margin-top: 0px;
+	padding-left: 20px;
+	font-size: 30px;
+	font-style: serif;
+	background-color:#E9E9ED;
+	text-align: center;
+	border-top: 10px;
+	margin-right: 80px;
+	margin-left: 80px;
+	margin-top: 20px;
+
+}
+
+
+#id2{
+  display: none;
+}
+
+#id3{
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+#categories{
+  max-width: 600px;
+  margin: auto;
+  float: left;
+  overflow: auto;
+
+}
+
+.product{
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 240px;
+  text-align: center;
+
+
+
+}
+
+.product img{
+  width: 50%;
+  height: auto;
+  text-align: center;
+
+
+}
+
+.desc {
+  padding: 15px;
+  text-align: left;
+  font-family: serif;
+
+}
+
+.overall{
+  background-color: #E7EAEF;
+   padding-bottom: 20px; 
+   padding-top: 20px;
+   font-size: 12px;
+   font-family: serif;
+   margin-left: 40px;
+   margin-right: 40px;
+}
+#contactus{
+
+  margin-left: 400px;
+}
+#contactus h3{
+  font-family: serif;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-left: 130px;
+}
+#contactus ul{
+  list-style: none;
+}
+#contactus ul li{
+  margin-left: 140px;
+  font-size: 18px;
+  color: #28577B;
+  margin-bottom: 10px;
+
+}
+
+#connect{
+  width: 50%
+  float : left;
+  color: white;
+  background-color:#191516;
+  font-family: serif;
+  padding-top: 20px;
+}
+#connect h5{
+  margin-left: 650px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-family: serif;
+}
+#connect ul{
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  margin-left: 625px;
+  padding-bottom: 0px;
+  font-family: serif;
+
+}
+#connect ul li{
+  display: inline;
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: serif;
+
+}
+#connect ul li a{
+  color: white;
+  font-family: serif;
+
+}
+.research{
+ 
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 1px solid;
+  border-style: inset;
+  padding: 20px
+  padding-top:30px;
+}
+
+.PK{
+  margin-left: 400px;
+}
+
+.research h2{
+  border-style: outset;
+  border: 1px solid;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 300px;
+  margin-left: 300px;
+  background-color: #C2C2C2;
+}
